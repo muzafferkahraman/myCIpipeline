@@ -5,7 +5,7 @@ from main import Comp
 class MyTestCase(unittest.TestCase):
     
      def test_add(self):
-        value = self.Comp.add(2,3)
+        value = Comp(2,3).add()
         self.assertEqual(value, 5)
 
 
