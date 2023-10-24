@@ -6,11 +6,7 @@ jobs:
       - image: cimg/python:3.11
     steps:
       - checkout
-      - run:
-        name: Set PYTHONPATH
-        command: |
-          export PYTHONPATH=$(pwd)/src:$PYTHONPATH
-
+      - run: export PYTHONPATH="/home/circleci/project/src:"
       - run: python main.py
   test:
     docker:
