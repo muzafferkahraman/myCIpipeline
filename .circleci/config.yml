@@ -5,7 +5,8 @@ jobs:
     docker:
       - image: cimg/python:3.11
     steps:
-      - checkout
+      - checkouit
+      - run: cd src
       - run: python main.py
   test:
     docker:
