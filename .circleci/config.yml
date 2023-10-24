@@ -12,7 +12,7 @@ jobs:
       - image: cimg/python:3.11
     steps:
       - checkout
-      - run: export PYTHONPATH = /home/circleci/project/src
+      - run: export PYTHONPATH = "/home/circleci/project/src"
       - run: python /home/circleci/project/tests/tests.py
   deploy:
     docker:
