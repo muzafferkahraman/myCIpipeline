@@ -1,12 +1,11 @@
 import unittest
-from main import to_upper
+from main import Comp
 
 
 class MyTestCase(unittest.TestCase):
     def test_to_upper(self):
-        name = "Shubham"
-        upper_name = to_upper(name)
-        self.assertEqual(upper_name, "SHUBHAM")
+        value = Comp.add(2,3)
+        self.assertEqual(value, 5)
 
 
 if __name__ == '__main__':
