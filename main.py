@@ -1,4 +1,4 @@
-# muzo
+# m
 
 def to_upper(name):
     return name.upper()
