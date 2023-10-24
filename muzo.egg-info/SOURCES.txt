@@ -1,0 +1,6 @@
+README.md
+setup.py
+muzo.egg-info/PKG-INFO
+muzo.egg-info/SOURCES.txt
+muzo.egg-info/dependency_links.txt
+muzo.egg-info/top_level.txt

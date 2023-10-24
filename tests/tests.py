@@ -1,4 +1,6 @@
 import unittest
+import sys,os
+sys.path.append(os.getcwd()+"/src")
 from main import Comp
 
 
