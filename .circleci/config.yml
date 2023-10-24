@@ -10,9 +10,10 @@ jobs:
   test:
     docker:
       - image: cimg/python:3.11
+    environment:
+      PYTHONPATH: /home/circleci/project/src
     steps:
       - checkout
-      - run: export PYTHONPATH = "/home/circleci/project/src"
       - run: python /home/circleci/project/tests/tests.py
   deploy:
     docker:
