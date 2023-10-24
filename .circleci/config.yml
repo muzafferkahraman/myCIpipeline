@@ -6,7 +6,11 @@ jobs:
       - image: cimg/python:3.11
     steps:
       - checkout
-      - run: cd src
+      - run:
+        name: Set PYTHONPATH
+        command: |
+          export PYTHONPATH=$(pwd)/src:$PYTHONPATH
+
       - run: python main.py
   test:
     docker:
