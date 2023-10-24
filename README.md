@@ -43,6 +43,8 @@ Ran 1 test in 0.000s
 OK
 
 
+![alt text](docs/circleci.png)
+
 
 [root@master myCIpipeline]# ./Makefile
 ./Makefile: line 1: test:: command not found
