@@ -1,4 +1,4 @@
-class Comp:
+class Comp():
 
   def add(self,a,b):
 
