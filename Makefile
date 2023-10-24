@@ -1,5 +1,5 @@
 test:
-      python3  tests/tests.py
+      python3  tests/tests.py -v
 
 build:
    

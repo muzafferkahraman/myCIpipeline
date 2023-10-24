@@ -1,24 +1,6 @@
 ** My CI Pipeline with circleci **
 
-myCIpipeline/
-├── docs
-│   └── circleci.png
-│
-├── Makefile
-├── README.md
-├── requirements.txt
-├── setup.py
-├── .gitignore
-│
-├── .circleci.py
-│    └── config.yml
-├── src
-│   ├──__init__.py
-│   ├── main.py
-│
-└── tests
-    ├──__init__.py
-    └── tests.py
+![alt text](docs/treeview.png)
 
 
 
