@@ -2,29 +2,23 @@
 
 myCIpipeline/
 ├── docs
-│   ├── main.py
-│   └── tests.py
+│   └── circleci.png
+│
 ├── Makefile
-├── muzo.egg-info
-│   ├── dependency_links.txt
-│   ├── PKG-INFO
-│   ├── SOURCES.txt
-│   └── top_level.txt
 ├── README.md
 ├── requirements.txt
 ├── setup.py
+├── .gitignore
+│
+├── .circleci.py
+│    └── config.yml
 ├── src
-│   ├── __init__.py
+│   ├──__init__.py
 │   ├── main.py
-│   └── __pycache__
-│       └── main.cpython-36.pyc
+│
 └── tests
-    ├── __init__.py
-    ├── __pycache__
-    │   ├── __init__.cpython-36.pyc
-    │   └── tests.cpython-36.pyc
+    ├──__init__.py
     └── tests.py
-
 
 
 
